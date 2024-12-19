@@ -2,25 +2,11 @@
 
 This repository contains research notebooks with experiments on diffusion reconstruction, truncation, and evaluation metrics (including FID/SNR) on CIFAR-10.
 
-## What is in this repo
-
-The project is notebook-based (no standalone `train.py` / `truncate.py` scripts in this repository).
-
 ### Notebooks
 
 - `optimal_transport.ipynb` - core OT/diffusion experiment notebook.
 - `optimal_transport_and_metrics.ipynb` - diffusion reconstruction notebook with metric tracking.
 - `truncated_ddpm_with_vae.ipynb` - truncated DDPM + VAE experiments and visualization utilities.
-
-## Run
-
-Start Jupyter and open any notebook from the list above:
-
-```bash
-jupyter notebook
-```
-
-Most notebooks download CIFAR-10 automatically to `./data` on first run.
 
 ## Methodology
 
